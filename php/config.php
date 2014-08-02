@@ -1,8 +1,8 @@
 <?php
 $hostname = 'localhost';
-$username = 'alextac_1';
-$password = 'qweasd123commentForm';
-$dbname = 'alextac_1';
+$username = '';
+$password = '';
+$dbname = '';
 $link = mysql_connect($hostname, $username, $password);
 
 if (!$link)
