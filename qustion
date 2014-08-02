@@ -1,0 +1,88 @@
+MW = $("#main_wrap")$;
+insert_li_que_1 = "<li><a href='#',id='que_1_1'>Не&nbsp;приходят&nbsp;СМС</a></li>";
+insert_li_ans_1 = "<li><a href='#' id='ans_1_1'>Перезагрузить&nbsp;телефон</a></li><li><li><a href='#' id='ans_1_3'Перезагрузите&nbsp;телефон</a></li>";
+
+insert_li_que_2 = "<li><a href='#' id='que_3'>Как&nbsp;сделать&nbsp;ключ&nbsp;ЭП</a></li>";
+insert_li_ans_2 = "<li><a href='#' id='ans_3_1'>Инструкция.&nbsp;Новый&nbsp;ключ</a></li>";
+
+
+
+insert_li_que_3 = "<li><a href='#' id='que_4'>Как&nbsp;зайти&nbsp;в&nbsp;ИБ</a></li>";
+insert_li_ans_3 = "<li><a href='#' id='ans_4_1'>Зайти&nbsp;на&nbsp;сайт&nbsp;ИБ.&nbsp;В&nbsp;правом&nbsp;крайнем&nbsp;столбце&nbsp;найти&nbsp;и&nbsp;нажать&nbsp;ссылку&nbsp;Вход</a></li>";
+
+insert_li_que_4 = "<li><a href='#' id='que_5'>Не&nbsp;заходит&nbsp;в&nbsp;ИБ.&nbsp;Не&nbsp;появляется&nbsp;окно&nbsp;входа.</a></li>";
+insert_li_ans_4 = "<li><a href='#' id='ans_5_1'>Посмотреть&nbsp;установлена&nbsp;ли&nbsp;Java.&nbsp;Установить</a></li><li><a href='#' id='ans_5_2'>Посмотреть&nbsp;та&nbsp;ли&nbsp;версия&nbsp;Java&nbsp;стоит.&nbsp;Если&nbsp;старая,&nbsp;то&nbsp;удалить&nbsp;старую,&nbsp;поставить&nbsp;новую</a></li><li><a href='#' id='ans_5_3'>Почистить&nbsp;кеш&nbsp;Java</a></li><li><a href='#' id='ans_5_4'>Зайти&nbsp;через&nbsp;другой&nbsp;браузер</a></li>";
+
+insert_li_que_5 = "<li><a href='#',id='que_6'>Тип&nbsp;хранилища:&nbsp;"Ключ&nbsp;на&nbsp;диске"&nbsp;и&nbsp;не&nbsp;меняется.</a></li>";
+insert_li_ans_5 = "<li><a href='#' id='ans_6_1'>Установить&nbsp;драйвер&nbsp;USB&nbsp;токена.&nbsp;Инструкция.</a></li>";
+
+insert_li_que_6 = "<li><a href='#',id='que_7'>Ключ&nbsp;заблокирован</a></li>";
+insert_li_que_6 = "<li><a href='#',id='que_7_1'>Проверить&nbsp;срок&nbsp;действия&nbsp;ключа.&nbsp;Рассказать&nbsp;как&nbsp;сделать&nbsp;новый&nbsp;ключ.&nbsp;Проверить&nbsp;полномочия.&nbsp;Если&nbsp;закончились,&nbsp;соединить&nbsp;с&nbsp;Отделом&nbsp;открытия&nbsp;счетов.</a></li>";
+
+insert_li_que_7 = "<li><a href='#' id='que_8'>Изменить&nbsp;сумму&nbsp;для&nbsp;СМС-подтверждения</a></li>";
+insert_li_ans_7 = "<li><a href='#' id='ans_7_1'>Где&nbsp;взять&nbsp;Заявление,&nbsp;как&nbsp;заполнить,&nbsp;кто&nbsp;должен&nbsp;привезти</a></li>";
+
+
+insert_li_que_8 = "<li><a href='#' id='que_9'>Изменить&nbsp;номер&nbsp;телефона&nbsp;для&nbsp;СМС-Подтверждения</a></li>";
+insert_li_ans_8 = "<li><a href='#' id='ans_9_1'>Где&nbsp;взять&nbsp;Заявление,&nbsp;как&nbsp;заполнить,&nbsp;кто&nbsp;должен&nbsp;привезти</a></li>";
+
+insert_li_que_9 = "<li><a href='#' id='que_10'>как&nbsp;распечатать&nbsp;сертификат&nbsp;ключа</a></li>";
+insert_li_ans_9 = "<li><a href='#' id='ans_10_1'>p;по&nbsp;работе&nbsp;с&nbsp;администрированием&nbsp;ключей&nbsp;ЭП&nbsp;в&nbsp;ИБ</a></li>";
+
+insert_li_que_10 = "<li><a href='#' id='que_11'>Не&nbsp;пришла&nbsp;выписка&nbsp;за&nbsp;прошедшие&nbsp;сутки</a></li>";
+insert_li_ans_10 = "<li><a href='#' id='ans_11_1'>Уточнить,&nbsp;были&nbsp;ли&nbsp;движения&nbsp;по&nbsp;счету.&nbsp;Проверить&nbsp;в&nbsp;Операционисте&nbsp;выписку&nbsp;по&nbsp;этому&nbsp;счету.&nbsp;Высылаем&nbsp;выписку&nbsp;клиенту.</a></li>";
+
+insert_li_que_11 = "<li><a href='#' id='que_12'>Не&nbsp;сходятся&nbsp;остатки&nbsp;в&nbsp;ИБ</a></li>";
+insert_li_ans_11 = "<li><a href='#' id='ans_12_1'>Ставим&nbsp;остатки&nbsp;в&nbsp;ИБ&nbsp;из&nbsp;ОДБ&nbsp;за&nbsp;нужную&nbsp;дату.&nbsp;Делаем&nbsp;синхронизацию.</a></li>";
+
+insert_li_que_12 = "<li><a href='#' id='que_13'>Как&nbsp;настроить&nbsp;импорт/экспорт&nbsp;с&nbsp;1С</a></li>";
+insert_li_ans_12 = "<li><a href='#' id='ans_13_1'>Иструкция&nbsp;по&nbsp;настройке</a></li>";
+
+insert_li_que_14 = "<li><a href='#' id='que_14'>Не&nbsp;распечатывается&nbsp;документ&nbsp;из&nbsp;ИБ</a></li>";
+insert_li_ans_14 = "<li><a href='#' id='ans_14_1'>Очистить&nbsp;кеш&nbsp;Java</a></li>";
+
+insert_li_que_15 = "<li><a href='#' id='que_15'>Как&nbsp;сменить&nbsp;пароль&nbsp;для&nbsp;ЭП</a></li>";
+insert_li_ans_15 = "<li><a href='#' id='ans_15_1'>Инструкция&nbsp;по&nbsp;работе&nbsp;с&nbsp;администрированием&nbsp;ключей&nbsp;ЭП&nbsp;в&nbsp;ИБ</a></li>";
+
+insert_li_que_16 = "<li><a href='#' id='que_16'>Не&nbsp;правильно&nbsp;указно&nbsp;наименование&nbsp;в&nbsp;ИБ</a></li>";
+insert_li_ans_16 = "<li><a href='#' id='ans_16_1'>Исправляем&nbsp;в&nbsp;администраторе</a></li>";
+
+insert_li_que_17 = "<li><a href='#' id='que_17_1'>Не&nbsp;отображается&nbsp;поле&nbsp;Платежные&nbsp;поручения</a></li>";
+insert_li_ans_17 = "<li><a href='#' id='ans_17_1'>Переустановить&nbsp;Java</a></li>";
+
+insert_li_que_18 = "<li><a href='#' id='que_18_1'>Когда&nbsp;активируют&nbsp;новые&nbsp;ключи</a></li>";
+insert_li_ans_18 = "<li><a href='#' id='ans_18_1'>Активировали</a></li><li><a href='#' id='ans_18_2'>Скоро</a></li>";
+
+
+insert_li_que_19 = "<li><a href='#' id='que_19_1'>Можно&nbsp;ли&nbsp;зайти&nbsp;в&nbsp;ИБ&nbsp;без&nbsp;токена</a></li>";
+insert_li_ans_19 = "<li><a href='#' id='ans_19_1'>Нет</a></li>";
+
+insert_li_que_20 = "<li><a href='#' id='que_20_1'>Будет&nbsp;ли&nbsp;работать&nbsp;старый&nbsp;ключ&nbsp;при&nbsp;создании&nbsp;нового</a></li>";
+insert_li_ans_20 = "<li><a href='#' id='ans_20_1'>Да,&nbsp;если&nbsp;у&nbsp;старого&nbsp;ключа&nbsp;не&nbsp;истек&nbsp;срок&nbsp;годности&nbsp;и&nbsp;если&nbsp;его&nbsp;не&nbsp;удалять</a></li>";
+
+insert_li_que_21 = "<li><a href='#' id='que_21_1'>Какой&nbsp;срок&nbsp;жизни&nbsp;ключей</a></li>";
+insert_li_ans_21 = "<li><a href='#' id='ans_21_1'>2&nbsp;года&nbsp;или&nbsp;до&nbsp;истечения&nbsp;срока&nbsp;полномочий</a></li>";
+
+insert_li_que_22 = "<li><a href='#' id='que_22_1'>Не&nbsp;светится&nbsp;токен</a></li>";
+insert_li_ans_22 = "<li><a href='#' id='ans_22_1'>Поставить/переставить&nbsp;драйвер&nbsp;USB&nbsp;токена.&nbsp;вставить&nbsp;токен&nbsp;в&nbsp;другой&nbsp;USB&nbsp;разъем</a></li>";
+
+insert_li_que_23 = "<li><a href='#' id='que_23_1'>Нужно&nbsp;указать&nbsp;название&nbsp;на&nbsp;английском</a></li>";
+insert_li_ans_23 = "<li><a href='#' id='ans_23_1'>Прислать&nbsp;письмо&nbsp;на&nbsp;support@uralliga.ru</a></li>";
+
+insert_li_que_24 = "<li><a href='#' id='que_24_1'>Не&nbsp;подходит&nbsp;БИК</a></li>";
+insert_li_ans_24 = "<li><a href='#' id='ans_24_1'>Не&nbsp;верно&nbsp;указывается&nbsp;БИК</a></li>";
+
+insert_li_que_25 = "<li><a href='#' id='que_25_1'>Как&nbsp;создать&nbsp;письмо</a></li>";
+insert_li_ans_25 = "<li><a href='#' id='ans_25_1'>Документы.&nbsp;Новый.&nbsp;Письмо</a></li><li><a href='#' id='ans_25_2'>Письма.&nbsp;Рабочие.&nbsp;Иконка&nbsp;Новое</a></li><li><a href='#' id='ans_25_3'>Письма.&nbsp;Рабочие.&nbsp;Правой&nbsp;клавишей.&nbsp;Новый</a></li><li><a href='#' id='ans_25_4'>Письма.&nbsp;Рабочие.&nbsp;Открыть&nbsp;уже&nbsp;написанное&nbsp;письмо.&nbsp;Нажать&nbsp;иконку&nbsp;Copy</a></li>";
+
+insert_li_que_26 = "<li><a href='#' id='que_26_1'>Как&nbsp;создать&nbsp;платежное&nbsp;поручение</a></li>";
+insert_li_ans_26 = "<li><a href='#' id='ans_26_1'>Инструкция&nbsp;по&nbsp;созданию</a></li>";
+
+insert_li_que_27 = "<li><a href='#' id='que_27_1'>Как&nbsp;отправить&nbsp;документ&nbsp;в&nbsp;банк</a></li>";
+insert_li_ans_27 = "<li><a href='#' id='ans_27_1'>Сохранить.&nbsp;Подписать.&nbsp;Подтвердить</a></li>";
+
+
+d_s = "#date-side";
+m_s = "#middle-side";
+db_1 = "#bottom-side";
+x=0;

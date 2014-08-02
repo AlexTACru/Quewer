@@ -1,0 +1,559 @@
+﻿html, body {
+	margin:0px; padding:0px; 
+	background:#fff;
+	position:relative; 
+}
+
+body {
+	text-align:center;
+}
+
+.dropin
+{
+	display: block;
+	margin: 10px auto;
+	position: relative;
+	width: 225px;
+}
+
+.dropin2
+{
+	display: block;
+	margin: 30px 0;
+	position: absolute;
+	right: 1px;
+}
+
+.dropin3
+{
+	display: block;
+	margin: 10px auto;
+	left: -1px;
+	position: relative;
+	width: 96%;
+}
+
+#btn11
+{
+	width: 200px;
+}
+
+#btn12
+{
+	width: 25px;
+}
+
+#btn21
+{
+	width: 90%;
+	min-width: 180px;
+}
+
+.btn21
+{
+	width: 90%;
+	min-width: 180px;
+}
+
+.btn22
+{
+	width: 10%;
+	min-width: 30px;
+}
+
+.my_input-prepend
+{
+	width: 100%;
+	margin: 5px 0;
+}
+
+#btn22
+{
+	width: 10%;
+	min-width: 30px;
+}
+
+.my_btn
+{
+	color: #fff;
+	margin: 0;
+	padding:0;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+        border-radius: 3px;
+    background-color: #4583E0;
+    opacity: 0.5;
+    border:1px solid #70717A;
+    height: 35px;
+    width: 100%;
+}
+
+.my_btn:active
+{
+	opacity: 1;
+	
+}
+
+#all {
+	text-align:left;
+	margin:0 auto;
+	width:60%;
+	min-width:703px;
+}
+
+
+#container {
+	position:relative; 
+	display:block; 
+background:#2eb2eb;
+	/* border-left:solid 20% #FFFFFF;
+	border-right:solid 20% #FFFFFF; */
+}
+#inner {
+	display:block;
+	position:relative;
+	min-height: 700px; 
+	/* margin-left:-20%;
+	margin-right:-20%; */
+	padding:0px;
+}
+
+#left {
+	float:left; 
+	position:relative;
+	height:100%;
+	width:26%;
+	left:0px;
+	top:0px;
+	margin:0;
+}
+
+#l-img
+{
+	margin:0;
+	padding:0;
+}
+
+#top
+{
+	width:100%;
+	height:120px;
+	margin:0;
+	display:block;
+}
+
+.c-wrap-body
+{
+	padding: 10px;
+}
+
+.c-wrap-body-left
+{
+	padding: 10px;
+	border-right: 1px solid #CCC;
+}
+
+#c-wrap-update
+{
+	background: url("../img/bg-stuff.png") repeat scroll 0 0 #CCCCCC;
+	width: 100%;
+	min-height: 100px;
+	border-top: 1px solid #949494;
+	border-left: 1px solid #949494;
+	border-bottom: 1px solid #949494;
+}
+
+#c-center
+{
+	display:block;
+}
+
+#top-left
+	{
+		background-color:#ffc508;
+		margin:0;
+		/* padding:10px; */
+		float:left;
+		height:100%;
+		width:26%;
+	}
+	
+#top-left p
+{
+	margin:50px;
+	text-align:center;
+}
+
+#top-right
+	{
+		background-color:#379ffe;
+		margin:0 0 0 26%;
+		height:100%;
+		width:74%;
+	}
+	
+#top-right p
+{
+	margin:0px;
+	padding-top:50px;
+	text-align:center;
+}
+	
+#center {
+	margin-left:26%;
+	/* margin-right:20%; */
+	position:relative; 
+	display:block;
+	width: 74%;
+	/* height:1%; */
+}
+
+#c-left {
+	float:left; 
+	position:relative; 
+	width:50%;
+	right:0px;
+	background-color:#E5E5E5;
+	
+}
+#c-left p
+{
+	padding:10px 0;
+	
+}
+
+#c-left ol li p
+{
+	padding:0;
+}
+
+#c-right {
+	position:relative;
+	margin: 0 0 0 50%;
+	min-height: 500px;
+	width:50%;
+	right:0px;
+	background-color:#fff;
+	overflow: hidden;
+}
+
+#c-right p
+{
+	padding:10px;
+	margin:0;
+}
+
+.clear {
+	clear:both;
+}
+
+.leftimg
+{
+	position:relative;
+	margin:0;
+	padding:0;
+}
+
+.someimg
+{
+	display:block;
+	margin:0 auto;
+}
+
+
+/*-----------------ProverkiNaDorogah-----------------------*/
+
+
+
+#pnd-main
+{
+	background-color:#6497c5;
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
+
+.my_dropdown-menu {
+  /*position: absolute;
+  top: 100%;*/
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: left;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0 3px;
+  list-style: none;
+  background-color: #ffffff;
+  /*border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 6px 0 0 6px;
+     -moz-border-radius: 6px 0 0 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+          width: 97%;*/
+}
+
+.my_dropdown-menu li > span{
+	float: left;
+	display: block;
+	padding: 3px 15px;
+	clear: both;
+	font-weight: normal;
+	line-height: 20px;
+	color: #333333;
+	white-space: nowrap;
+	margin: 0 0 0 0;
+}
+.my_dropdown-menu li > a {
+  display: block;
+  padding: 3px 15px;
+  clear: both;
+  font-weight: normal;
+  line-height: 20px;
+  color: #333333;
+  white-space: nowrap;
+  margin: 0 0 0 0;
+}
+
+#driver_t
+{
+	display: none;
+}
+
+.nav li {
+	width: 50%;
+	float: left;
+}
+
+
+
+
+/*-------------------QUEWER-CSS-------------------*/
+#unlabel{}
+#main_wrap
+{
+	display: block;
+	margin: 20px auto;
+	max-width: 800px;
+	padding: 0;
+}
+
+#L-side, #bottom-side_L, #L-side_other
+{
+	float:left; 
+	position:relative; 
+	width:50%;
+	right:0px;
+	background-color:#fff;
+	border-right: 1px solid #C3C3C3;
+	margin-top: 10px;
+}
+
+
+#bottom-side_L
+{
+	margin: 0;
+}
+
+#R-side, #bottom-side_R,#R-side_other
+{
+	position:relative;
+	margin: 0 0 0 50%;
+	min-height: 40px;
+	width:50%;
+	right:0px;
+	background-color:#fff;
+	border-left: 1px solid #c3c3c3;
+	margin-top: 10px;
+}
+
+#L-side_area, #L-side_area_other, #R-side_area, #R-side_area_other
+{
+	padding: 0 0 0 10px; 
+}
+
+.que
+{
+	margin-top: 10px;
+	width: 85%;
+	max-width: 352px;
+}
+
+.other_block
+{
+	
+}
+
+#but_acc
+{
+	
+}
+
+#que_1
+{}
+
+#dt_see_t_ta, #dt_see_t_ans, #dt_load_j_ans
+{
+	display: none;
+}
+
+#client_name, #que_area, #cont_name, #cont_phon
+{
+	min-width: 216px;
+	margin-right: 5px;
+}
+
+#client_name, #client_invoice, #cont_name, #cont_phone
+{
+	width: 220px;
+	margin: 10px 5px 0 0;
+}
+
+#questions, #answers
+{
+	width: 374px;
+	margin: 10px 5px 0 0;
+	resize:none;
+}
+
+#cont_phone
+{
+	margin-right: 0;
+}
+
+#cli_data
+{}
+
+#cont_data
+{
+	margin: 0 auto;
+	width: 65%;
+}
+
+#last_que_ans
+{
+	margin:0 auto;
+	width:100%;
+}
+
+#cont_name
+{}
+
+#cont_phon
+{}
+
+#middle-side, #bottom-side, #bottom-side_wrap, #date-side, #other_que
+{
+	margin-top: 10px;
+	display: block;
+	position: relative;
+}
+
+#middle-side
+{
+	min-height: 80px;
+}
+
+#bottom-side, #write_butt, #middle-side, #date-side, #other_que
+{
+	border-top: 1px solid #C3C3C3;
+	display: none;
+}
+
+#date-side
+{
+	padding-top: 10px;
+}
+
+#write_butt
+{
+	margin-top: 10px;
+	padding-top: 10px;
+	min-width: 100%;
+}
+
+#inp_que_other, #inp_ans_other
+{
+	margin-bottom: 10px;
+}
+
+#call_time, #passed_time, #end_call_time, #date_call, #time_call, #end_call, #admin
+{
+	border: none;
+	text-align: center;
+	width: 125px;
+}
+
+#passed_time, #time_call
+{
+	width: 60px;
+}
+
+#date_call, #time_call, #end_call, #admin
+{
+	margin-top: 15px;
+	margin-right:2px;
+}
+
+#quewer, #newWinPlus
+{
+	position: absolute;
+	display: block;
+	top: 0;
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+#quewer
+{
+	left: 20px;
+	opacity: 0.2;
+	color: #000000;
+	cursor: default;
+}
+
+#newWinPlus
+{
+	right: 20px;
+	width: 402px;
+}
+
+#admin-group
+{
+	margin-top: 40px;
+}
+
+#admin
+{
+	margin-left:5px;
+	border-bottom:1px solid #ccc;
+}
+
+#report
+{
+	top:80px;
+}
+
+#report2
+{
+	top:120px;
+}
+
+#myModal
+{
+	display:none;
+}
+
+#formReport
+{
+	margin-top:10px;
+}
